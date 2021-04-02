@@ -320,7 +320,7 @@ label #cancel {
 
 .btn3 a {
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
     padding: 0 15px;
     color: #09A9B1;
 }
@@ -351,15 +351,43 @@ label #cancel {
 
 /* Media*/
 @media only screen and (max-width: 1030px) {
-
+    .about_container h1 {
+       
+        font-size: 28px;
+        position: relative;
+        color: #43454C;
+    }
+    .about_container h1::after {
+        content: '';
+        width: 70px;
+        height: 4px;
+        background-color: #43454C;
+        position: absolute;
+        left: 45.5%;
+        top: 100%;
+    }
     .about_img img {
-        width: 350px;
-        margin-top: 65px;
+        width: 300px;
+        margin-top: 80px;
     }
 
     .icons {
         font-size: 20px;
         margin-top: 15px;
+    }
+
+    .about_col p {
+        font-size: 15px;
+        line-height: 30px;
+        text-align: justify;
+    }
+    .btn3 {
+        margin: 10px 0 0 0;
+        padding: 10px;
+        font-size: 15px;
+        background-color: #1B242F;
+        border: none;
+        outline: none;
     }
 }
 
@@ -601,7 +629,7 @@ label #cancel {
 
 .c_skill {
     background-color: #508DDD;
-    width: 80%;
+    width: 70%;
     height: 25px;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -641,6 +669,7 @@ label #cancel {
     box-sizing: border-box;
     border-radius: 25px;
     border: 1px solid;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.363);
 }
 
 .timeline i {
@@ -864,6 +893,9 @@ label #cancel {
     .container3 {
         max-width: 720px;
     }
+    .portfolio-tab ul{
+        padding: 0;
+    }
   }
   @media (min-width: 992px) {
     .container3 {
@@ -893,7 +925,7 @@ label #cancel {
     background: #f28500;
   }
   .portfolio-section {
-    padding: 90px 0 30px 0;
+    padding: 40px;
     transition: 1.3s;
     box-sizing: border-box;
     height: auto;
@@ -909,8 +941,8 @@ label #cancel {
     display: inline;
     font-weight: 500;
     text-transform: uppercase;
-    padding: 12px 16px;
-    border: 2px solid #e30b5d;
+    padding: 12px 5px;
+    border: 2px solid #09A9B1;
     margin: 0 5px;
     cursor: pointer;
     -webkit-transition: 0.2s;
@@ -919,7 +951,7 @@ label #cancel {
     transition: 0.2s;
     -webkit-tap-highlight-color: transparent;
   }
-  @media (max-width: 770.98px) {
+  @media (max-width: 575.98px) {
     .portfolio-tab ul li {
       display: block;
       margin: 10px auto;
@@ -927,11 +959,11 @@ label #cancel {
     }
   }
   .portfolio-tab ul li:hover {
-    background: #e30b5d;
+    background: #09A9B1;
     color: #fff
   }
   .portfolio-tab ul .active {
-    background: #e30b5d;
+    background: #09A9B1;
     color: #fff
   }
   .clearfix:after {
@@ -957,10 +989,11 @@ label #cancel {
     }		
     }
   .portfolio-grid .portfolio {
-      
-     
+      margin: 5px;
+     padding: 5px;
       display:none;
       overflow:hidden;
+      border: 2px solid #37BC9B;
   }
   .portfolio-wrapper {
     overflow:hidden;
@@ -969,7 +1002,7 @@ label #cancel {
   }
   .portfolio-bg {
     width: 100%;
-    height: 300px;
+    height: 275px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -981,7 +1014,6 @@ label #cancel {
   }
   .first .portfolio-bg{
     background-image: url('images/Login\ 1.jpg');
-    
   }
   .second .portfolio-bg{
     background-image: url('images/Login\ 2.jpg');  
@@ -995,12 +1027,12 @@ label #cancel {
   .five .portfolio-bg{
     background-image: url('images/template\ 2.jpg');  
   }
-  /* .six .portfolio-bg{
+  .six .portfolio-bg{
     background-image: url('images/template\ 3.jpg');  
   }
   .seven .portfolio-bg{
     background-image: url('images/template\ 4.jpg');  
-  } */
+  }
   .eight .portfolio-bg{
     background-image: url('images/price\ list\ 1.jpg');  
   }
@@ -1019,9 +1051,15 @@ label #cancel {
   .thirteen .portfolio-bg{
     background-image: url('images/card-1.jpg');  
   }
+  .fifteen .portfolio-bg{
+        background-image: url('images/card-2.jpg');  
+    }
+    .sixteen .portfolio-bg{
+        background-image: url('images/card-3.jpg');  
+    }
   .fourteen .portfolio-bg{
     background-image: url('images/other.jpg');  
-  }
+}
   .portfolio .label {
     position: absolute;
     width: 100%;
@@ -1056,8 +1094,8 @@ label #cancel {
     display:block;
   }
   .portfolio .template-btn {
-    background: #e30b5d;
-    border: 1px solid #e30b5d;
+    background: #09A9B1;
+    border: 1px solid #09A9B1;
     text-decoration: none;
     margin-top: 20px;
     font-weight: 500
