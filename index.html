@@ -1,478 +1,698 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap" rel="stylesheet">-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-        crossorigin="anonymous" />
-        <script src="jquery-3.6.0.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.min.js"></script>
-</head>
-<body>
-<!---------------------------------------------------Banner--------------------------------------------------------->
-    <section id="Home">
-        <div class="hero-image">
-            <div class="container2">
-                <h1>Hello, I'm <span>Jay Shah.</span><br>I'm a Full Stack Devloper.</h1><br>
-                <button class="btn"><a href="#Nav">View my work</a></button>
-            </div>
-        </div>
-    </section>
-<!-----------------------------------------------------Navbar------------------------------------------------------>
-    <section class="navbar" id="Nav">
-        <div class="toggle"></div>
-        <div class="navigation">
-        <nav>
-            <div>
-            <input type="checkbox" id="check">
-            <label for="check">
-                <i class="fas fa-bars" id="btn"></i>
-                <i class="fas fa-times" id="cancel"></i>
-            </label>
-            <h2>Jay shah</h2>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#us">About us</a></li>
-                <li><a href="#Skill">Skill & Education</a></li>
-                <li><a href="#Portfolio">Portfolio</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
-        </div>
-        </nav>
-        </div>
-    </section>
-    <!------------------------------------------------------- About------------------------------------------------ -->
-    <section id="us">
-        <div class="about">
-            <div class="about_container">
-                <h1>About Me</h1>
-                <div class="about_row">
-                    <div class="about_col bg1">
-                        <div class="about_img">
-                            <img src="images/DSC0.jpg" alt="my.jpg">
-                        </div>
-                    </div>
-                    <div class="about_col bg2">
-                        <div class="about_col para">
-                            <h3>About <span>Me</span></h3>
-                            <p>Hi! my name is jay shah. I am a Full Stack Devloper, and I'm very passionate and
-                                dedicated to my
-                                work.6 month experience as a full stack devloper at one web technology, I have acquired the
-                                skills
-                                and
-                                knowledge necessary to make your project a success. I enjoy every step of the frontend
-                                and
-                                backend
-                                process, from discussion and collaboration.
-                            </p>
-                            <button class="btn3">
-                                <a href="Resume Jay Shah.pdf" target="_blank">Download Cv</a>
-                            </button>
-                            <div class="icons">
-                                <span class="fa-stack fa-1x" style="color: #3b5999;">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <a href="https://www.facebook.com/profile.php?id=100004262881302" target="_blank"><i
-                                            class="fab fa-facebook-f  fa-stack-1x fa-inverse"></i></a>
-                                </span>
-                                <span class="fa-stack fa-1x" style="color: #55acee;">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <a href="https://twitter.com/?lang=en" target="_blank"><i
-                                            class="fab fa-twitter fa-stack-1x fa-inverse"></i></a>
-                                </span>
-                                <span class="fa-stack fa-1x" style="color: #0077B5;">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <a href="https://www.linkedin.com/in/shah-jay-b06845178/" target="_blank"><i
-                                            class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i></a>
-                                </span>
-                                <span class="fa-stack fa-1x" style="color: #e4405f;">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <a href="https://www.instagram.com/jayshah19199/" target="_blank"><i
-                                            class="fab fa-instagram fa-stack-1x fa-inverse"></i></a>
-                                </span>
-                                <span class="fa-stack fa-1x" style="color: #333333;">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <a href="https://github.com/jayshah1234" target="_blank"><i
-                                            class="fab fa-github fa-stack-1x fa-inverse"></i></a>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!----------------------------------------------------------- skill--------------------------------------------- -->
-    <section id="Skill">
-        <div class="skill">
-            <div class="skill_container">
-                <h1>Skills & Education</h1>
-                <div class="skill_row">
-                    <div class="skill_col bg1">
-                        <div class="skillbar">
-                            <h4>Skill</h4>
-                            <span>Html</span>
-                            <div class="html">
-                                <div class="html_skill"><span class="percent">98%</span></div>
-                            </div>
-                            <span>Css</span>
-                            <div class="html">
-                                <div class="css_skill"><span class="percent2">90%</span></div>
-                            </div>
-                            <span>Javascript</span>
-                            <div class="html">
-                                <div class="java_skill"><span class="percent3">80%</span></div>
-                            </div>
-                            <span>Jquery</span>
-                            <div class="html">
-                                <div class="jquery_skill"><span class="percent4">85%</span></div>
-                            </div>
-                            <span>Bootstrap</span>
-                            <div class="html">
-                                <div class="boot_skill"><span class="percent2">90%</span></div>
-                            </div>
-                            <span>Asp.net Mvc</span>
-                            <div class="html">
-                                <div class="asp_skill"><span class="percent4">85%</span></div>
-                            </div>
-                            <span>Entity Framework</span>
-                            <div class="html">
-                                <div class="c_skill"><span class="percent3">70%</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill_col bg2">
-                        <div class="education">
-                            <h4>Education</h4>
-                            <div class="timeline">
-                                <i class="far fa-calendar-alt"><span class="year">2016-2020</span></i>
-                                <h3>Computer Science and Engineering(B.tech)</h3>
-                                <p>I am complete my bachlore degree from neotech institute of technology under Gujarat
-                                    Technology University(G.T.U) with over all C.G.P.A 8.36.</p>
-                            </div>
-                            <div class="timeline">
-                                <i class="far fa-calendar-alt"><span class="year">2014-2016</span></i>
-                                <h3>Gujarat Higher Secondary Education Board(GHSEB)</h3>
-                                <p>I am complete my 12th from Knowledge High Scholl Nadiad.</p>
-                            </div>
-                            <div class="timeline">
-                                <i class="far fa-calendar-alt"><span class="year">2013-2014</span></i>
-                                <h3>Gujarat Secondary Education Board(GSEB)</h3>
-                                <p>I am complete my 10th from Knowledge High School Nadiad.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--------------------------------------------------Filter Gallery------------------------------------------------->
-    <section class="portfolio-section" id="Portfolio">
-        <div class="container5">
-            <h2>Projects</h2>
-    </div>
-        <div class="container3">
-            <span class="hr-role"></span>
-            <div class="portfolio-tab">
-                <ul id="filters" class="clearfix">
-                    <li class="filter active" data-filter=".login, .projects, .pricing, .icons-effect, .hover-effect, .others">all</li>
-                    <li class="filter" data-filter=".login">Login</li>
-                    <li class="filter" data-filter=".projects">Projects</li>
-                    <li class="filter" data-filter=".pricing">Pricing</li>
-                    <li class="filter" data-filter=".icons-effect">Icon Effect</li>
-                    <li class="filter" data-filter=".hover-effect">Hover Effect</li>
-                    <li class="filter" data-filter=".others">Other</li>
-                </ul>
-            </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="Images/images.png">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+            integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="crossorigin="anonymous"
+            />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap"
+            rel="stylesheet">
+    </head>
 
-            <div class="portfolio-grid">
-<!-------------------------------------------------------Login----------------------------------------------------->
-                <div class="portfolio login" data-cat="login">
-                    <div class="portfolio-wrapper first">
-                        <div class="portfolio-bg"></div>
-                        <div class="label">
-                            <div class="label-text">
-                                <h4>Login page1</h4>
-                                <span class="text-category"></span>
-                                <a href="https://jayshah1234.github.io/login-1/" class="template-btn"
-                                    target="_blank">View</a>
-                            </div>
-                            <div class="label-bg"> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio login" data-cat="login">
-                    <div class="portfolio-wrapper second">
-                        <div class="portfolio-bg"></div>
-                        <div class="label">
-                            <div class="label-text">
-                                <h4>Login Page2</h4>
-                                <span class="text-category"></span>
-                                <a href="https://jayshah1234.github.io/login-2/" class="template-btn"
-                                    target="_blank">View</a>
-                            </div>
-                            <div class="label-bg"> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio login" data-cat="login">
-                    <div class="portfolio-wrapper third">
-                        <div class="portfolio-bg"></div>
-                        <div class="label">
-                            <div class="label-text">
-                                <h4>Login Page3</h4>
-                                <span class="text-category"></span>
-                                <a href="https://jayshah1234.github.io/login-3/" class="template-btn"
-                                    target="_blank">View</a>
-                            </div>
-                            <div class="label-bg"> </div>
-                        </div>
-                    </div>
-                </div>
-<!----------------------------------------------------Full Template------------------------------------------------>
-                   <div class="portfolio projects" data-cat="projects">
-                    <div class="portfolio-wrapper four">
-                        <div class="portfolio-bg"></div>
-                        <div class="label">
-                            <div class="label-text">
-                                <h4>Project1</h4>
-                                <span class="text-category"></span>
-                                <a href="https://jayshah1234.github.io/Home-Services-Template/" class="template-btn"
-                                    target="_blank">View</a>
-                            </div>
-                            <div class="label-bg"> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio projects" data-cat="projects">
-                    <div class="portfolio-wrapper five">
-                        <div class="portfolio-bg"></div>
-                        <div class="label">
-                            <div class="label-text">
-                                <h4>Project2</h4>
-                                <span class="text-category"></span>
-                                <a href="https://jayshah1234.github.io/Digital-Card-Project-/" class="template-btn"
-                                    target="_blank">View</a>
-                            </div>
-                            <div class="label-bg"> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio projects" data-cat="projects">
-                    <div class="portfolio-wrapper six">
-                        <div class="portfolio-bg"></div>
-                        <div class="label">
-                            <div class="label-text">
-                                <h4>Project3</h4>
-                                <span class="text-category"></span>
-                                <a href="https://jayshah1234.github.io/Vegan-Store/" class="template-btn"
-                                    target="_blank">View</a>
-                            </div>
-                            <div class="label-bg"> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio projects" data-cat="projects">
-                    <div class="portfolio-wrapper seven">
-                        <div class="portfolio-bg"></div>
-                        <div class="label">
-                            <div class="label-text">
-                                <h4>Project4</h4>
-                                <span class="text-category"></span>
-                                <a href="" class="template-btn" target="_blank">View</a>
-                            </div>
-                            <div class="label-bg"> </div>
-                        </div>
-                    </div>
-                </div>
-<!------------------------------------------------------pricing --------------------------------------------------->
-                <div class="portfolio pricing" data-cat="pricing">
-                    <div class="portfolio-wrapper eight">
-                        <div class="portfolio-bg"></div>
-                        <div class="label">
-                            <div class="label-text">
-                                <h4>Pricing1</h4>
-                                <span class="text-category"></span>
-                                <a href="https://jayshah1234.github.io/PiceList-4/" class="template-btn"
-                                    target="_blank">View</a>
-                            </div>
-                            <div class="label-bg"> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio pricing" data-cat="pricing">
-                    <div class="portfolio-wrapper nine">
-                        <div class="portfolio-bg"></div>
-                        <div class="label">
-                            <div class="label-text">
-                                <h4>Pricing2</h4>
-                                <span class="text-category"></span>
-                                <a href="https://jayshah1234.github.io/PriceList-5/" class="template-btn"
-                                    target="_blank">View</a>
-                            </div>
-                            <div class="label-bg"> </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="portfolio pricing" data-cat="pricing">
-                    <div class="portfolio-wrapper ten">
-                        <div class="portfolio-bg"></div>
-                        <div class="label">
-                            <div class="label-text">
-                                <h4>Pricing3</h4>
-                                <span class="text-category"></span>
-                                <a href="https://jayshah1234.github.io/price-list-3/" class="template-btn"
-                                    target="_blank">View</a>
-                            </div>
-                            <div class="label-bg"> </div>
-                        </div>
-                    </div>
-                </div> -->
-<!---------------------------------------------------Icon Effect--------------------------------------------------->
-                <div class="portfolio icons-effect" data-cat="icons-effect">
-                    <div class="portfolio-wrapper eleven">
-                        <div class="portfolio-bg"></div>
-                        <div class="label">
-                            <div class="label-text">
-                                <h4>Icons-Effect</h4>
-                                <span class="text-category"></span>
-                                <a href="https://jayshah1234.github.io/Effects-icon/" class="template-btn"
-                                    target="_blank">View</a>
-                            </div>
-                            <div class="label-bg"> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio hover-effect" data-cat="hover-effect">
-                    <div class="portfolio-wrapper twelve">
-                        <div class="portfolio-bg"></div>
-                        <div class="label">
-                            <div class="label-text">
-                                <h4>Hover-Effect</h4>
-                                <span class="text-category"></span>
-                                <a href="https://jayshah1234.github.io/before-after/" class="template-btn"
-                                    target="_blank">View</a>
-                            </div>
-                            <div class="label-bg"> </div>
-                        </div>
-                    </div>
-                </div>
-<!---------------------------------------------------------Other--------------------------------------------------->
-                <div class="portfolio others" data-cat="others">
-                    <div class="portfolio-wrapper thirteen">
-                        <div class="portfolio-bg"></div>
-                        <div class="label">
-                            <div class="label-text">
-                                <h4>Card-1</h4>
-                                <span class="text-category"></span>
-                                <a href="https://jayshah1234.github.io/card-3/" class="template-btn"
-                                    target="_blank">View</a>
-                            </div>
-                            <div class="label-bg"> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio others" data-cat="others">
-                    <div class="portfolio-wrapper sixteen">
-                        <div class="portfolio-bg"></div>
-                        <div class="label">
-                            <div class="label-text">
-                                <h4>Card-2</h4>
-                                <span class="text-category"></span>
-                                <a href="https://jayshah1234.github.io/BusinessCard-mini/" class="template-btn"
-                                    target="_blank">View</a>
-                            </div>
-                            <div class="label-bg"> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio others" data-cat="others">
-                    <div class="portfolio-wrapper fifteen">
-                        <div class="portfolio-bg"></div>
-                        <div class="label">
-                            <div class="label-text">
-                                <h4>Card-3</h4>
-                                <span class="text-category"></span>
-                                <a href="https://jayshah1234.github.io/digital-card-pro3/" class="template-btn"
-                                    target="_blank">View</a>
-                            </div>
-                            <div class="label-bg"> </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio others" data-cat="others">
-                    <div class="portfolio-wrapper fourteen">
-                        <div class="portfolio-bg"></div>
-                        <div class="label">
-                            <div class="label-text">
-                                <h4>Hotels</h4>
-                                <span class="text-category"></span>
-                                <a href="http://hotelunityinn.com/" class="template-btn"
-                                    target="_blank">View</a>
-                            </div>
-                            <div class="label-bg"> </div>
-                        </div>
-                    </div>
-                </div>
-<!------------------------------------------------------Finish--------------------------------------------------->
+    <body>
+        <!----------------------------------Page Loader start----------------------------->
+        <div class="page-loader">
+            <div class="page-loader-inner">
+                <div class="circle"></div>
+                Loading
             </div>
         </div>
-    </section>
-    <!-----------------------------------------------------contact us-------------------------------------------------->
-    <section id="Contact">
-        <div class="contact">
-            <div class="contact_container">
-                <h1>Contact us</h1>
-                <div class="contact_row">
-                    <div class="contact_col bg1">
-                        <div class="contact_detail">
-                            <h2>Get In Touch</h2>
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3681.169659561746!2d72.87485901479411!3d22.684727285125245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e5b21b40af8d5%3A0x8e041f1795d471d!2sMercury%20II%20Complex%2C%20Kisan%20Samosa%20Ln%2C%20Akshar%20Twp%2C%20Nadiad%2C%20Gujarat%20387001!5e0!3m2!1sen!2sin!4v1607193039892!5m2!1sen!2sin"
-                                width="100%" height="200" frameborder="0" style="border:0;" allowfullscreen=""
-                                aria-hidden="false" tabindex="0"></iframe>
-                            <div class="con_detail">
-                                <h3>ADDRESS:-</h3>
-                                <span>404,Mercury complex vaniyavad college road
-                                    Nadiad</span>
-                                <h3>PHONE:-</h3>
-                                <span>+91 9712623421</span>
-                                <h3>EMAIL:-</h3>
-                                <span>shahjay4259@gmail.com</span>
-                            </div>
+        <!----------------------------------Page Loader end----------------------------->
+        <!---------------------------------------Bg Animation----------------------------------->
+        <div class="bg-animation-effect">
+
+        </div>
+        <!------------------------------------Overlay effect start-------------------------->
+        <div class="overlay-effect">
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+            <div class="overlay-effect-item"></div>
+        </div>
+        <!------------------------------------Overlay effect end-------------------------->
+        <!------------------------------------------Header section start-------------------------->
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <!-- navbar-start-->
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#about" class="nav-item link-item">About</a></li>
+                                <li><a href="#portfolio" class="nav-item
+                                        link-item">Portfolio</a></li>
+                                <li><a href="#contact" class="nav-item
+                                        link-item">Contact</a></li>
+                            </ul>
                         </div>
-                    </div>
-                    <div class="contact_col bg2">
-                        <h2>Contact</h2>
-                        <div class="form">
-                            <h3>Name</h3>
-                            <input type="text" placeholder="Enter Your Name">
-                            <h3>Email</h3>
-                            <input type="email" name="" id="" placeholder="Enter Your Email">
-                            <h3>Subject</h3>
-                            <input type="text" placeholder="Enter Your Subject">
-                            <h3>Your Message</h3>
-                            <textarea name="" id="" cols="50" rows="7"></textarea>
-                            <button class="btn3"><a href="">
-                                    Submit</a>
-                            </button>
+                    </nav>
+                    <!--navbar-end-->
+                </div>
+            </div>
+        </header>
+        <!------------------------------------------Header section end-------------------------->
+        <!--------------------------------------- About section--------------------------------->
+        <section class="about-section active" id="about">
+            <div class="container">
+                <div class="row min-vh-100">
+                    <div class="about-content">
+                        <img src="Images/jayshah.jpeg" alt="profile-img">
+                        <h1>Hi, My Name is Jay Shah.</h1>
+                        <p>I'm a <span>Full Stack Devloper </span>and I'm very
+                            passionate and dedicated to my work.6 month
+                            experience as a full stack devloper at one web
+                            technology, I have acquired the skills and
+                            knowledge necessary to make your project a success.
+                            I enjoy every step of the frontend and
+                            backend process.check out my latest work on the <a
+                                href="#portfolio" class="link-item">portfolio
+                                page</a></p>
+                        <h2>Skills</h2>
+                        <div class="skills">
+                            <div class="skill-item">Html</div>
+                            <div class="skill-item">Css</div>
+                            <div class="skill-item">Javascript</div>
+                            <div class="skill-item">Jquery</div>
+                            <div class="skill-item">Bootstrap</div>
+                            <div class="skill-item">C#</div>
+                            <div class="skill-item">Asp.net Mvc</div>
+                            <div class="skill-item">Entity Framework</div>
+                            <div class="skill-item">SQL</div>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <!-----------------------------------Portfolio Section--------------------------------->
+        <section class="portfolio-section sec-padding" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>recent works</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="portfolio-filter">
+                        <button type="button" title="show all works"
+                            class="portfolio-filter-btn active"
+                            data-filter="All">All</button>
+                        <button type="button" title="Filter by Login"
+                            class="portfolio-filter-btn"
+                            data-filter="Login">Login</button>
+                        <button type="button" title="Filter by Projects"
+                            class="portfolio-filter-btn"
+                            data-filter="Projects">Projects</button>
+                        <button type="button" title="Filter by Pricing"
+                            class="portfolio-filter-btn"
+                            data-filter="Pricing">Pricing</button>
+                        <button type="button" title="Filter by Icon-Effect"
+                            class="portfolio-filter-btn"
+                            data-filter="Icon-Effect">Icon-Effect</button>
+                        <button type="button" title="Filter by Hover-Effect"
+                            class="portfolio-filter-btn"
+                            data-filter="Hover-Effect">Hover-Effect</button>
+                        <button type="button" title="Filter by Other"
+                            class="portfolio-filter-btn"
+                            data-filter="Other">Other</button>
+                    </div>
+                    <div class="filter-status">
+                        <p>filtering <span>all</span> works</p>
+                    </div>
+                </div>
+                <div class="row portfolio-items">
+                    <!--Portfolio item-->
+                    <div class="portfolio-item" data-category="Login">
+                        <div class="portfolio-item-thumbnail">
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618482844/Portfolio/Login_1_olqnv6.jpg"
+                                alt="thumbnail1">
+                            <button type="button" class="btn more-info-btn">more
+                                info</button>
+                        </div>
+                        <h3 class="portfolio-item-title">Login page</h3>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>This is my First Login page ever.In this
+                                    login page we use html css js.</p>
+                            </div>
+                            <div class="general-info">
+                                <!-- <p>Created - <span>4 Dec 2020</span></p> -->
+                                <p>Technology Used - <span>Html, Css, Javascript</span></p>
+                                <!-- <p>Role - <span>Frontend</span></p> -->
+                                <p>View online - <span><a
+                                            href="https://jayshah1234.github.io/login-1/"
+                                            target="_blank">https://jayshah1234.github.io/login-1/</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--portfolio item end-->
+
+                    <!--Portfolio item-->
+                    <div class="portfolio-item" data-category="Login">
+                        <div class="portfolio-item-thumbnail">
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618482844/Portfolio/Login_2_qfo5pb.jpg"
+                                alt="thumbnail1">
+                            <button type="button" class="btn more-info-btn">more
+                                info</button>
+                        </div>
+                        <h3 class="portfolio-item-title">Login page</h3>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>This is my second Login page ever.In this
+                                    login page we use html css js.</p>
+                            </div>
+                            <div class="general-info">
+                                <!-- <p>Created - <span>4 Dec 2020</span></p> -->
+                                <p>Technology Used - <span>Html, Css, Javascript</span></p>
+                                <!-- <p>Role - <span>Frontend</span></p> -->
+                                <p>View online - <span><a
+                                            href="https://jayshah1234.github.io/login-2/"
+                                            target="_blank">https://jayshah1234.github.io/login-2/</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--portfolio item end-->
+
+                    <!--Portfolio item-->
+                    <div class="portfolio-item" data-category="Login">
+                        <div class="portfolio-item-thumbnail">
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618482844/Portfolio/Login_3_ayerix.jpg"
+                                alt="thumbnail1">
+                            <button type="button" class="btn more-info-btn">more
+                                info</button>
+                        </div>
+                        <h3 class="portfolio-item-title">Login page</h3>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>This is my Third Login page ever.In this
+                                    login page we use html css js.</p>
+                            </div>
+                            <div class="general-info">
+                                <!-- <p>Created - <span>4 Dec 2020</span></p> -->
+                                <p>Technology Used - <span>Html, Css, Javascript</span></p>
+                                <!-- <p>Role - <span>Frontend</span></p> -->
+                                <p>View online - <span><a
+                                            href="https://jayshah1234.github.io/login-3/"
+                                            target="_blank">https://jayshah1234.github.io/login-3/</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--portfolio item end-->
+
+                    <!--Portfolio item-->
+                    <div class="portfolio-item" data-category="Projects">
+                        <div class="portfolio-item-thumbnail">
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618482846/Portfolio/template_1_n7vfke.jpg"
+                                alt="thumbnail1">
+                            <button type="button" class="btn more-info-btn">more
+                                info</button>
+                        </div>
+                        <h3 class="portfolio-item-title">Home Services Project</h3>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>This is Home solution website.in this website
+                                    we add the services that you can use as per
+                                    your need.we use html css technology.</p>
+                            </div>
+                            <div class="general-info">
+                                <!-- <p>Created - <span>4 Dec 2020</span></p> -->
+                                <p>Technology Used - <span>Html, Css</span></p>
+                                <!-- <p>Role - <span>Frontend</span></p> -->
+                                <p>View online - <span><a
+                                            href="https://jayshah1234.github.io/Home-Services-Template/"
+                                            target="_blank">https://jayshah1234.github.io/Home-Services-Template/</a></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--portfolio item end-->
+
+                    <!--Portfolio item-->
+                    <div class="portfolio-item" data-category="Projects">
+                        <div class="portfolio-item-thumbnail">
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618484149/Portfolio/digi_nyyrlb.jpg"
+                                alt="thumbnail1">
+                            <button type="button" class="btn more-info-btn">more
+                                info</button>
+                        </div>
+                        <h3 class="portfolio-item-title">Digital Business Card</h3>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>This is Digital Business Card Website.In this
+                                    website you have to make business card
+                                    professional card and also you have join as
+                                    dealer.we use this project frontend and
+                                    backend. use some technology is Html, Css,
+                                    javascript and Jquery.</p>
+                            </div>
+                            <div class="general-info">
+                                <!-- <p>Created - <span>4 Dec 2020</span></p> -->
+                                <p>Technology Used - <span>Html, Css,
+                                        Javascript, Jquery</span></p>
+                                <!-- <p>Role - <span>Frontend and Backend</span></p> -->
+                                <p>View online - <span><a
+                                            href="https://jayshah1234.github.io/Digital-Card-Project-/"
+                                            target="_blank">https://jayshah1234.github.io/Digital-Card-Project-/</a></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--portfolio item end-->
+
+                    <!--Portfolio item-->
+                    <div class="portfolio-item" data-category="Projects">
+                        <div class="portfolio-item-thumbnail">
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618482845/Portfolio/template_3_mojzsi.jpg"
+                                alt="thumbnail1">
+                            <button type="button" class="btn more-info-btn">more
+                                info</button>
+                        </div>
+                        <h3 class="portfolio-item-title">Vegan Store Template</h3>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>This is online Vegan store website.This is my
+                                    first practice website.In this website you
+                                    can order the vegetable online.we use some
+                                    technology like Html and Css.</p>
+                            </div>
+                            <div class="general-info">
+                                <!-- <p>Created - <span>4 Dec 2020</span></p> -->
+                                <p>Technology Used - <span>Html, Css</span></p>
+                                <!-- <p>Role - <span>Frontend</span></p> -->
+                                <p>View online - <span><a
+                                            href="https://jayshah1234.github.io/Vegan-Store/"
+                                            target="_blank">https://jayshah1234.github.io/Vegan-Store/</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--portfolio item end-->
+
+                    <!--Portfolio item-->
+                    <div class="portfolio-item" data-category="Pricing">
+                        <div class="portfolio-item-thumbnail">
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618482845/Portfolio/price_list_1_t0382s.jpg"
+                                alt="thumbnail1">
+                            <button type="button" class="btn more-info-btn">more
+                                info</button>
+                        </div>
+                        <h3 class="portfolio-item-title">Pricing Layout</h3>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>This is my first pricing layout for the
+                                    practice.we use html and css.</p>
+                            </div>
+                            <div class="general-info">
+                                <!-- <p>Created - <span>4 Dec 2020</span></p> -->
+                                <p>Technology Used - <span>Html, Css</span></p>
+                                <!-- <p>Role - <span>Frontend</span></p> -->
+                                <p>View online - <span><a
+                                            href="https://jayshah1234.github.io/PiceList-4/"
+                                            target="_blank">https://jayshah1234.github.io/PiceList-4/</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--portfolio item end-->
+
+                    <!--Portfolio item-->
+                    <div class="portfolio-item" data-category="Pricing">
+                        <div class="portfolio-item-thumbnail">
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618484923/Portfolio/pricing_rnbsvs.jpg"
+                                alt="thumbnail1">
+                            <button type="button" class="btn more-info-btn">more
+                                info</button>
+                        </div>
+                        <h3 class="portfolio-item-title">Pricing Layout</h3>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>This is my second pricing layout.in this we
+                                    use html css javascript and also responsive
+                                    layout.</p>
+                            </div>
+                            <div class="general-info">
+                                <!-- <p>Created - <span>4 Dec 2020</span></p> -->
+                                <p>Technology Used - <span>Html, Css, Javascript</span></p>
+                                <!-- <p>Role - <span>Frontend</span></p> -->
+                                <p>View online - <span><a
+                                            href="https://jayshah1234.github.io/pricing/index"
+                                            target="_blank">https://jayshah1234.github.io/pricing/index</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--portfolio item end-->
+
+                    <!--Portfolio item-->
+                    <div class="portfolio-item" data-category="Pricing">
+                        <div class="portfolio-item-thumbnail">
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618482845/Portfolio/price_list_2_j3iyly.jpg"
+                                alt="thumbnail1">
+                            <button type="button" class="btn more-info-btn">more
+                                info</button>
+                        </div>
+                        <h3 class="portfolio-item-title">Pricing Layout</h3>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>This is my third pricing layout.we use Html
+                                    and css also reponsive layout.</p>
+                            </div>
+                            <div class="general-info">
+                                <!-- <p>Created - <span>4 Dec 2020</span></p> -->
+                                <p>Technology Used - <span>Html, Css</span></p>
+                                <!-- <p>Role - <span>Frontend</span></p> -->
+                                <p>View online - <span><a
+                                            href="https://jayshah1234.github.io/PriceList-5/"
+                                            target="_blank">https://jayshah1234.github.io/PriceList-5/</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--portfolio item end-->
+
+                    <!--Portfolio item-->
+                    <div class="portfolio-item" data-category="Icon-Effect">
+                        <div class="portfolio-item-thumbnail">
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618482844/Portfolio/Icon_effect_bc19fh.jpg"
+                                alt="thumbnail1">
+                            <button type="button" class="btn more-info-btn">more
+                                info</button>
+                        </div>
+                        <h3 class="portfolio-item-title">Icon Effects</h3>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>This is the icon effect.In this layout making
+                                    diffrent types of effects using html and
+                                    css.</p>
+                            </div>
+                            <div class="general-info">
+                                <!-- <p>Created - <span>4 Dec 2020</span></p> -->
+                                <p>Technology Used - <span>Html, Css</span></p>
+                                <!-- <p>Role - <span>Frontend</span></p> -->
+                                <p>View online - <span><a
+                                            href="https://jayshah1234.github.io/Effects-icon/"
+                                            target="_blank">https://jayshah1234.github.io/Effects-icon/</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--portfolio item end-->
+
+                    <!--Portfolio item-->
+                    <div class="portfolio-item" data-category="Hover-Effect">
+                        <div class="portfolio-item-thumbnail">
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618482844/Portfolio/hover_effect_lnkqu0.jpg"
+                                alt="thumbnail1">
+                            <button type="button" class="btn more-info-btn">more
+                                info</button>
+                        </div>
+                        <h3 class="portfolio-item-title">Hover Effects</h3>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>This is hover effect.In this effect using
+                                    after and before concept.some techology use
+                                    like html css.</p>
+                            </div>
+                            <div class="general-info">
+                                <!-- <p>Created - <span>4 Dec 2020</span></p> -->
+                                <p>Technology Used - <span>Html, Css</span></p>
+                                <!-- <p>Role - <span>Frontend</span></p> -->
+                                <p>View online - <span><a
+                                            href="https://jayshah1234.github.io/before-after/"
+                                            target="_blank">https://jayshah1234.github.io/before-after/</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--portfolio item end-->
+
+                    <!--Portfolio item-->
+                    <div class="portfolio-item" data-category="Other">
+                        <div class="portfolio-item-thumbnail">
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618485379/Portfolio/digital_card_cwvykw.jpg"
+                                alt="thumbnail1">
+                            <button type="button" class="btn more-info-btn">more
+                                info</button>
+                        </div>
+                        <h3 class="portfolio-item-title">Digital Card</h3>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>This is Digital card layout.It is also called
+                                    as smart card for your Business.all the
+                                    feture like social media website about etc.</p>
+                            </div>
+                            <div class="general-info">
+                                <!-- <p>Created - <span>4 Dec 2020</span></p> -->
+                                <p>Technology Used - <span>Html, Css</span></p>
+                                <!-- <p>Role - <span>Frontend</span></p> -->
+                                <p>View online - <span><a
+                                            href="https://jayshah1234.github.io/card-3/"
+                                            target="_blank">https://jayshah1234.github.io/card-3/</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--portfolio item end-->
+
+                    <!--Portfolio item-->
+                    <div class="portfolio-item" data-category="Other">
+                        <div class="portfolio-item-thumbnail">
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618482844/Portfolio/card-3_wldo9u.jpg"
+                                alt="thumbnail1">
+                            <button type="button" class="btn more-info-btn">more
+                                info</button>
+                        </div>
+                        <h3 class="portfolio-item-title">Digital Card Mini
+                            Website</h3>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>This is Digital card mini website.It is also
+                                    called as smart card for your Business.all
+                                    the feture like social media website about
+                                    etc.</p>
+                            </div>
+                            <div class="general-info">
+                                <!-- <p>Created - <span>4 Dec 2020</span></p> -->
+                                <p>Technology Used - <span>Html, Css, Javascript</span></p>
+                                <!-- <p>Role - <span>Frontend</span></p> -->
+                                <p>View online - <span><a
+                                            href="https://jayshah1234.github.io/BusinessCard-mini/"
+                                            target="_blank">https://jayshah1234.github.io/BusinessCard-mini/</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--portfolio item end-->
+
+                    <!--Portfolio item-->
+                    <div class="portfolio-item" data-category="Other">
+                        <div class="portfolio-item-thumbnail">
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618482843/Portfolio/card-2_irdgv4.jpg"
+                                alt="thumbnail1">
+                            <button type="button" class="btn more-info-btn">more
+                                info</button>
+                        </div>
+                        <h3 class="portfolio-item-title">Digital Card</h3>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>This is Digital card layout.It is also called
+                                    as smart card for your Business.all the
+                                    feture like social media website about etc.</p>
+                            </div>
+                            <div class="general-info">
+                                <!-- <p>Created - <span>4 Dec 2020</span></p> -->
+                                <p>Technology Used - <span>Html, Css, Javascript</span></p>
+                                <!-- <p>Role - <span>Frontend</span></p> -->
+                                <p>View online - <span><a
+                                            href="https://jayshah1234.github.io/digital-card-pro3/"
+                                            target="_blank">https://jayshah1234.github.io/digital-card-pro3/</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--portfolio item end-->
+
+                    <!--Portfolio item-->
+                    <div class="portfolio-item" data-category="Other">
+                        <div class="portfolio-item-thumbnail">
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618482845/Portfolio/other_jyjyq9.jpg"
+                                alt="thumbnail1">
+                            <button type="button" class="btn more-info-btn">more
+                                info</button>
+                        </div>
+                        <h3 class="portfolio-item-title">Hotel Unity Inn</h3>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>This is the client website. our client bulid
+                                    a new hotel and they asked me to make
+                                    website but only show hotel and rooms photo
+                                    and hotel address that it. so i make this
+                                    website for the client and client is very
+                                    happy for the website.</p>
+                            </div>
+                            <div class="general-info">
+                                <!-- <p>Created - <span>4 Dec 2020</span></p> -->
+                                <p>Technology Used - <span>Html, Css</span></p>
+                                <!-- <p>Role - <span>Frontend</span></p> -->
+                                <p>View online - <span><a
+                                            href="http://hotelunityinn.com/"
+                                            target="_blank">http://hotelunityinn.com/</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--portfolio item end-->
+
+                </div>
+            </div>
+        </section>
+        <!-----------------------------------portfolio section end----------------------------->
+        <!-----------------------------------Contact section--------------------------------->
+        <section class="contact-section sec-padding min-vh-100" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-content">
+                        <div class="contact-text">
+                            <p>I'm a <span>Full Stack Devloper </span>and I'm
+                                very
+                                passionate and dedicated to my work.This is my
+                                Resume for all necessary details about me.<a
+                                    href="Images/jay shah resume.pdf"
+                                    class="link-item" target="_blank"> Download
+                                    CV</a></p>
+                        </div>
+                        <div class="contact-info-item">
+                            <p>Email me on <span>shahjay4259@gmail.com</span></p>
+                        </div>
+                        <div class="contact-info-item">
+                            <p class="social-links">
+                                <span>Find me on</span>
+                                <a
+                                    href="https://www.facebook.com/profile.php?id=100004262881302"
+                                    target="_blank"><i class="fab
+                                        fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/jay83185507"
+                                    target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a
+                                    href="https://www.instagram.com/jayshah19199/"
+                                    target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a
+                                    href="https://www.linkedin.com/in/shah-jay-b06845178/"
+                                    target="_blank"><i class="fab
+                                        fa-linkedin-in"></i></a>
+                                <a href="https://github.com/jayshah1234"
+                                    target="_blank"><i class="fab fa-github"></i></a>
+                            </p>
+                        </div>
+                        <button type="button" class="btn
+                            toggle-contact-form-btn">Send Message</button>
+                    </div>
+                    <!--contact-form start-->
+                    <div class="contact-form">
+                        <div class="contact-form-inner">
+                            <div class="contact-form-container">
+                                <button type="button" class="close-btn
+                                    toggle-contact-form-btn"></button>
+                                <form>
+                                    <div class="row">
+                                        <div class="input-group">
+                                            <input type="text" placeholder="Your Name" class="input-control">
+                                        </div>
+                                        <div class="input-group">
+                                            <input type="text" placeholder="Your Email" class="input-control">
+                                        </div>
+                                        <div class="input-group">
+                                            <input type="text"
+                                                placeholder="Subject"
+                                                class="input-control">
+                                        </div>
+                                        <div class="input-group">
+                                            <textarea placeholder="Message"
+                                                class="input-control"></textarea>
+                                        </div>
+                                        <div class="input-group">
+                                            <button type="submit" class="btn
+                                                btn-submit">Send</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!--contact form end  -->
+                </div>
+            </div>
+        </section>
+        <!----------------------------------contact section end------------------------------>
+        <!---------------------------------------portfolio popup------------------------------->
+        <div class="portfolio-popup">
+            <div class="pp-overlay"></div>
+            <div class="pp-inner">
+                <div class="pp-content">
+                    <div class="pp-header">
+                        <h2 class="pp-counter">
+                        </h2>
+                        <button type="button" title="close" class="close-btn
+                            pp-close-btn"></button>
+                        <div class="pp-thumbnail">
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618482845/Portfolio/other_jyjyq9.jpg"
+                                alt="pp-thumbnail">
+                        </div>
+                        <h3></h3>
+                    </div>
+                    <div class="pp-body">
+                    </div>
+                    <div class="pp-footer">
+                        <div class="pp-footer-left hidden">
+                            <button type="button" title="prev work" class="btn
+                                pp-prev-btn"><i class="fas fa-arrow-left"></i></button>
+                            <h3></h3>
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618482843/Portfolio/card-2_irdgv4.jpg"
+                                alt="prev work thumbnail">
+                        </div>
+                        <div class="pp-footer-right hidden">
+                            <button type="button" title="next work" class="btn
+                                pp-next-btn"><i class="fas fa-arrow-right"></i></button>
+                            <h3></h3>
+                            <img
+                                src="https://res.cloudinary.com/dx1alme1d/image/upload/v1618482844/Portfolio/Login_1_olqnv6.jpg"
+                                alt="next work thumbnail">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </section>
-    <script src="script.js"></script>
-</body>
+        <!---------------------------------------portfolio popup end---------------------------->
+        <script src="script.js"></script>
+    </body>
+
 </html>
